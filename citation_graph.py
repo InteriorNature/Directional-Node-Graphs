@@ -15,6 +15,7 @@ Imports a directionally connected nodes list
 import urllib
 import matplotlib.pyplot as plt
 import numpy as np
+from Collections import Counter
 #%matplotlib inline
 ###################################
 

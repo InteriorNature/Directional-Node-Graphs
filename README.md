@@ -1,1 +1,3 @@
 # Directional-Node-Graphs
+
+Node connections are the basis for understanding connectivity patterns in networks (social or otherwise) and trying to derive meaning from them. Citation_Graph.py is an example of processing a set of nodes with directed connections (from_nodes and to_nodes). It computes the "in-degree distribution", and it transforms the result to plot it. The result shows a typical network result for a collection of academic papers (e.g. physics papers are the from_nodes and citations are the connected to_nodes). The "rich get richer" phenomenon in a network appears visible in the outcome: a physics paper(node) that is well-cited (connected to many nodes) will tend to be cited again with even higher probability than a paper with a low connections.
